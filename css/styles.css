@@ -52,6 +52,10 @@ body {
     color: var(--header-text);
 }
 
+.site-nav .link.current {
+    color: var(--accent);
+}
+
 .contacts a {
     color: var(--primary-text);
 }
@@ -156,3 +160,38 @@ body {
     color: var(--white-text);
 }
 
+/* main Портфолио */
+
+.button-filter {
+    color: var(--header-text);
+    background-color: var(--bcg-main);
+    border: 0mm;
+    cursor: pointer;
+    
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section-list .button-filter:hover,
+.section-list .button-filter:focus {
+    color: var(--white-text);
+    background-color: var(--accent);
+}
+
+.section-list .link h3 {
+    color: var(--header-text);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.section-list .link p {
+    color: var(--primary-text);
+
+    font-size: 16px;
+    line-height: 1.9;
+}
